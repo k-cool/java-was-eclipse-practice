@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<!-- 
+	플젝 -> 빌드패스 -> lib탭
+	web prj -> WEB-INF -> lib
+		- 안에다가 jar 파일 넣기
+		
+		파일 업로드시 신경써야할 사항
+	1. post
+	2. enctype을 multipart/form-data으로
+
+ -->
+
+	<form action="FileUpload" method="POST" enctype="multipart/form-data">
+		이름: <input name="name">
+		사진: <input name="pic" type="file">
+		기타: <input name="etc" type="file">
+		<button >upload</button>
+	</form>
+	
+</body>
+</html>

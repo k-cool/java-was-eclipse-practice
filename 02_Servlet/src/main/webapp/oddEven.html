@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	 
+	 <!-- 
+	 
+	 톰켓 버그있을 경우
+	 1. 캐시 비우고 새로고침
+	 2. 서버 실행 다시 (서버탭에 우클릭 restart)
+	 3. tomcat 우클릭 clean
+	 4. tomcat 실려있은거 지우고 다시 실행
+	 5. 톰캣 런타임 다시 잡기
+	 
+	 
+	 각종 에러 대응
+	1. encountered 에러 = 어노테이션 에러
+	2. java.lang.classnotfoundexception : startup.Boostrap
+		-> java compiler version check
+		-> 이클립스 재부팅
+	3. already in use ... port 
+		-> cmd
+			netstat -oan
+			taskkill -f /pid 프로세스 아이디 -> git bash에서 kill 사용가능
+			
+	  -->
+	  
+	  <form action="OddEven">
+	  	<input name="num">
+	  	<button>홀? 짝?</button>
+	  </form>
+	  
+</body>
+</html>
