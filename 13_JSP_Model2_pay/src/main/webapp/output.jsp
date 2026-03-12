@@ -12,7 +12,8 @@
 	Result r = (Result) request.getAttribute("r");
 %>
 
-	번돈 : <%=r.getEarn() %>
+	번돈 : <%=r.getEarn
+	 () %>
 	쓴돈 : <%=r.getSpend() %>
 	남은돈 : <%=r.getRemain() %>
 
